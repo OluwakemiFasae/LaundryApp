@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-Aug-2018, 20:53:58
+    Author     : OLUWAKEMI
+*/
+
+@media print {
+  .no-print {
+    visibility: hidden;
+  }
+}
+
+.cent{
+    text-align: center; 
+}
+
+.formbody{
+    width: 50%;
+    margin: auto;
+}
+
+body {
+  font-family: 'Lora';
+  background: url("../images/regbg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardy{
+    margin-top: 20px;
+}
+
+.widy{
+    width: 70%;
+    margin: auto;
+}
+
+.bord{
+    border: 2px black;
+}
+
+td.admin {
+    display: none;
+}
+
+
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.toppad{
+    margin-top:20px;
+}
+.bl{
+    display: block;
+    text-align: center;
+    margin-left: 200px;
+}
